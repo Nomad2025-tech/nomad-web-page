@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nomad Technologies Limited</title>
+  <style>
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: #f0f4f8; color: #2c3e50; }
+    header { background-color: #001f3f; color: white; padding: 20px 0; text-align: center; }
+    nav { background-color: #003366; display: flex; justify-content: center; padding: 10px 0; }
+    nav a { color: white; text-decoration: none; margin: 0 15px; transition: color 0.3s ease; }
+    nav a:hover { color: #ffcc00; }
+    section { padding: 40px 20px; max-width: 1200px; margin: auto; }
+    footer { background-color: #001f3f; color: white; text-align: center; padding: 20px; }
+    .hero { text-align: center; padding: 60px 20px; background: linear-gradient(135deg, #006494, #00a6fb); color: white; }
+    .services, .products { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; }
+    .card { background: white; padding: 20px; border-radius: 10px; flex: 1 1 30%; box-shadow: 0 4px 10px rgba(0,0,0,0.1); transition: transform 0.3s ease; }
+    .card:hover { transform: translateY(-5px); }
+    .contact-form { display: flex; flex-direction: column; max-width: 500px; margin: auto; background: #ffffff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+    .contact-form input, .contact-form textarea { margin-bottom: 15px; padding: 12px; border: 1px solid #ccc; border-radius: 5px; }
+    .contact-form button { padding: 12px; background-color: #006494; color: white; border: none; border-radius: 5px; cursor: pointer; }
+    .contact-form button:hover { background-color: #00557a; }
+    .social-icons a { margin: 0 10px; color: white; text-decoration: none; font-size: 20px; }
+    .blog-preview { background: white; padding: 20px; margin-top: 20px; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nomad Technologies Limited</h1>
+    <p><em>Empowering Your Digital World</em> | Est. 2025</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#products">Products</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h2>Your Trusted ICT Partner in Turkana</h2>
+    <p>Networking, Software Installation, IT Consultancy & More</p>
+  </div>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Nomad Technologies Limited is an ICT company based in Lodwar, Turkana, Kenya. Established in 2025, we specialize in providing expert IT solutions to homes, businesses, and institutions.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Networking</h3>
+        <p>Reliable network design, setup, and troubleshooting for home and business environments.</p>
+      </div>
+      <div class="card">
+        <h3>Software Installation</h3>
+        <p>Professional software installation and configuration for operating systems, office tools, and more.</p>
+      </div>
+      <div class="card">
+        <h3>IT Consultancy</h3>
+        <p>Strategic ICT consulting to boost your productivity and tech efficiency.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="products">
+    <h2>Our Products</h2>
+    <div class="products">
+      <div class="card">
+        <h3>Routers</h3>
+        <p>High-performance wireless and wired routers for fast, secure connectivity.</p>
+      </div>
+      <div class="card">
+        <h3>Accessories</h3>
+        <p>Keyboards, mice, webcams, USB drives, and more—everything to keep your tech running smoothly.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="blog">
+    <h2>Latest Blog Posts</h2>
+    <div class="blog-preview">
+      <h3>Top 5 Network Security Tips</h3>
+      <p>Keep your systems protected with these essential security practices. <a href="#">Read more...</a></p>
+    </div>
+    <div class="blog-preview">
+      <h3>Best Accessories for Tech Professionals</h3>
+      <p>Upgrade your setup with the most recommended ICT accessories. <a href="#">Read more...</a></p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form" method="POST" action="send.php">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p>Call us: 0725455574 | 0715075033</p>
+    <p>Email: nomadtechnoligies@info.com</p>
+    <p>Visit: Lodwar, Turkana, Kenya</p>
+    <p>Website: www.nomdatechnologies</p>
+    <div class="social-icons">
+      <a href="#">Facebook</a>
+      <a href="#">WhatsApp</a>
+      <a href="#">LinkedIn</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Nomad Technologies Limited. All rights reserved.</p>
+  </footer>
+</body>
+</html>
